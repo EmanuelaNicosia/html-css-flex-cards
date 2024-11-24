@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #e4517d;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sottotitolo {
+    text-align: center;
+    color: #070b17;
+    font-size: x-large;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-top: 60px;
+    height: 300px;
+}
+
+.item {
+    width: 450px;
+    height: 120px;
+    background-color: black;
+    display: flex;
+
+}
+
+main {
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.item img {
+    height: 100%;
+}
+
+.descrizione {
+    color: white;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.email {
+    color: #48b8e6;
+}
